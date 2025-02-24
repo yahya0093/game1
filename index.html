@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>لعبة التحدي</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>لعبة التحدي</h1>
+    </header>
+    <main>
+        <div class="game-board">
+            <div class="category" id="general-info">
+                <h2>معلومات عامة</h2>
+                <div class="points">
+                    <button onclick="selectQuestion('general-info', 200)">200</button>
+                    <button onclick="selectQuestion('general-info', 200)">200</button>
+                    <button onclick="selectQuestion('general-info', 400)">400</button>
+                    <button onclick="selectQuestion('general-info', 400)">400</button>
+                    <button onclick="selectQuestion('general-info', 600)">600</button>
+                    <button onclick="selectQuestion('general-info', 600)">600</button>
+                </div>
+            </div>
+            <div class="category" id="cars">
+                <h2>سيارات</h2>
+                <div class="points">
+                    <button onclick="selectQuestion('cars', 200)">200</button>
+                    <button onclick="selectQuestion('cars', 200)">200</button>
+                    <button onclick="selectQuestion('cars', 400)">400</button>
+                    <button onclick="selectQuestion('cars', 400)">400</button>
+                    <button onclick="selectQuestion('cars', 600)">600</button>
+                    <button onclick="selectQuestion('cars', 600)">600</button>
+                </div>
+            </div>
+            <div class="category" id="quran">
+                <h2>القرآن</h2>
+                <div class="points">
+                    <button onclick="selectQuestion('quran', 200)">200</button>
+                    <button onclick="selectQuestion('quran', 200)">200</button>
+                    <button onclick="selectQuestion('quran', 400)">400</button>
+                    <button onclick="selectQuestion('quran', 400)">400</button>
+                    <button onclick="selectQuestion('quran', 600)">600</button>
+                    <button onclick="selectQuestion('quran', 600)">600</button>
+                </div>
+            </div>
+            <div class="category" id="prophets">
+                <h2>قصص الأنبياء</h2>
+                <div class="points">
+                    <button onclick="selectQuestion('prophets', 200)">200</button>
+                    <button onclick="selectQuestion('prophets', 200)">200</button>
+                    <button onclick="selectQuestion('prophets', 400)">400</button>
+                    <button onclick="selectQuestion('prophets', 400)">400</button>
+                    <button onclick="selectQuestion('prophets', 600)">600</button>
+                    <button onclick="selectQuestion('prophets', 600)">600</button>
+                </div>
+            </div>
+            <div class="category" id="classico">
+                <h2>أعلام  </h2>
+                <div class="points">
+                    <button onclick="selectQuestion('classico', 200)">200</button>
+                    <button onclick="selectQuestion('classico', 200)">200</button>
+                    <button onclick="selectQuestion('classico', 400)">400</button>
+                    <button onclick="selectQuestion('classico', 400)">400</button>
+                    <button onclick="selectQuestion('classico', 600)">600</button>
+                    <button onclick="selectQuestion('classico', 600)">600</button>
+                </div>
+            </div>
+            <div class="category" id="puzzles">
+                <h2>ألغاز</h2>
+                <div class="points">
+                    <button onclick="selectQuestion('puzzles', 200)">200</button>
+                    <button onclick="selectQuestion('puzzles', 200)">200</button>
+                    <button onclick="selectQuestion('puzzles', 400)">400</button>
+                    <button onclick="selectQuestion('puzzles', 400)">400</button>
+                    <button onclick="selectQuestion('puzzles', 600)">600</button>
+                    <button onclick="selectQuestion('puzzles', 600)">600</button>
+                </div>
+            </div>
+        </div>
+        <div class="score-board">
+            
+            <div class="team" id="teamA">الاسود: <span id="scoreA">0</span></div>
+            <div class="team" id="teamB">الابطال: <span id="scoreB">0</span></div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
